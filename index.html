@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio Personal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Agregar barra de navegacion y efectos en los botones/listas -->
+  <header id="header">
+    <h1 class="titulo-principal">¡Bienvenidos a Mi Portfolio!</h1>
+    <p class="subtitulo">Hola! Soy Mauro, un apasionado desarrollador Front End</p>
+  </header>
+<!-- Seccion principal -->
+ <!-- mejorar dimensiones, colores y agregar fondo dinamico -->
+  <main>
+    <!-- foto personal -->
+    <section id="sobre-mi" class="seccion">
+        <div class="imagen-presentacion">
+            <img src="images/Foto-portfolio_Comprimida.png"  alt="Foto personal" width="250" height="250">
+        </div>
+      <article>
+        <h2>Sobre Mí</h2>
+        <p>Soy un apasionado de la programación web con conocimientos en tecnologías front end:</p> 
+        <p>HTML, CSS, JavaScript y React</p>
+        <p>Disfruto crear interfaces limpias, intuitivas y funcionales</p>
+        <a href="#contacto" class="btn">Contáctame</a>
+      </article>
+   
+    </section>
+<!-- Tabla Tecnologias y hobbies -->
+    <section id="tecnologias" class="seccion">
+      <h2>Tecnologías y Hobbies</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Conozco</th>
+            <th>Quiero Aprender</th>
+            <th>Hobbies</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5, CSS3, Tailwind, JavaScript, React, Next.js</td>
+            <td>Typescript</td>
+            <td>Programar, Videojuegos, Tenis y futbol</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+<!-- Formulario contacto -->
+    <section id="contacto" class="seccion">
+      <h2>Formulario de Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="tu@correo.com">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="+54 9 11 1234-5678">
+
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>&copy; 2025 Mauro Florio. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
