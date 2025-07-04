@@ -36,11 +36,23 @@
             padding: 1rem 0;
         }
 
-        .logo {
+.logo {
             font-size: 1.5rem;
             font-weight: 700;
             color: #667eea;
+            cursor: pointer;
         }
+
+.logo a {
+    color: #667eea;
+    text-decoration: none;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #5a67d8;
+}
 
         nav ul {
             display: flex;
@@ -299,37 +311,6 @@
             color: #333;
         }
 
-        .tech-level {
-            display: inline-block;
-            padding: 0.4rem 1rem;
-            border-radius: 25px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .tech-level.avanzado {
-            background: linear-gradient(135deg, #4caf50, #45a049);
-            color: white;
-        }
-
-        .tech-level.intermedio {
-            background: linear-gradient(135deg, #ff9800, #f57c00);
-            color: white;
-        }
-
-        .tech-level.basico {
-            background: linear-gradient(135deg, #2196f3, #1976d2);
-            color: white;
-        }
-
-        .tech-level.aprendiendo {
-            background: linear-gradient(135deg, #9c27b0, #7b1fa2);
-            color: white;
-        }
-
 
 
         /* Colores específicos para iconos de tecnologías */
@@ -349,10 +330,6 @@
             color: #61dafb;
         }
 
-        .tech-card .fa-bootstrap {
-            color: #7952b3;
-        }
-
         .tech-card .fa-git-alt {
             color: #f05032;
         }
@@ -361,9 +338,7 @@
             color: #339933;
         }
 
-        .tech-card .fa-sass {
-            color: #cc6699;
-        }
+    
 
         /*__________________Sección de Contacto____________________________*/
         .contact {
@@ -605,20 +580,9 @@
             color: #666;
         }
 
-        /* Combinador directo */
-        .contact-form > .form-group {
-            margin-bottom: 1.5rem;
-        }
-
-        /* Uso de z-index para overlay de texto */
-        .hero-overlay {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-            background: rgba(0, 0, 0, 0.5);
-            padding: 2rem;
-            border-radius: 10px;
-            backdrop-filter: blur(5px);
-        }
+.nextjs-icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto 8px auto;
+}
